@@ -388,7 +388,7 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "mediacms",
-        "HOST": "127.0.0.1",
+        "HOST": "10.151.61.122",
         "PORT": "5432",
         "USER": "mediacms",
         "PASSWORD": "mediacms",
