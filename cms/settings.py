@@ -387,11 +387,11 @@ LOGGING = {
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "postgres",
+        "NAME": "mediacms",
         "HOST": "127.0.0.1",
         "PORT": "5432",
-        "USER": "postgres",
-        "PASSWORD": "postgres",
+        "USER": "mediacms",
+        "PASSWORD": "mediacms",
     }
 }
 

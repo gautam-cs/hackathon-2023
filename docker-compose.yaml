@@ -19,8 +19,8 @@ services:
     depends_on:
       redis:
         condition: service_healthy
-#      db:
-#        condition: service_healthy
+      db:
+        condition: service_healthy
   web:
     image: mediacms/mediacms:latest
     deploy:
